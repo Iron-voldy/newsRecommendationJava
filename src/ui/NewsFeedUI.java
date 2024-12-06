@@ -37,7 +37,7 @@ public class NewsFeedUI extends JFrame {
         textArea.setEditable(false);
         JScrollPane scrollPane = new JScrollPane(textArea);
         add(scrollPane, BorderLayout.CENTER);
-
+ 
         // Panel to hold buttons for interactions with articles
         buttonPanel = new JPanel();
         buttonPanel.setLayout(new BoxLayout(buttonPanel, BoxLayout.Y_AXIS));  // Arrange buttons vertically
